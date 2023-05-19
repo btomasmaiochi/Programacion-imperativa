@@ -21,9 +21,7 @@ const convertir = (x) => {
 let resultado = convertir(50);
 console.log(resultado);
 
-const convertir1 = (x) => {
-  return x * 2.54;
-};
+const convertir1 = x => x * 2.54;
 let resultado1 = convertir1(50);
 console.log(resultado1);
 
@@ -35,9 +33,7 @@ const stringUrl = (string) => {
 let resultString = stringUrl("pepito");
 console.log(resultString);
 
-const stringUrl1 = (string) => {
-  return `http://www.${string}.com`;
-};
+const stringUrl1 = string => `http://www.${string}.com`;
 let resultString1 = stringUrl1("pepito");
 console.log(resultString1);
 
@@ -49,9 +45,7 @@ const admiracion = (string) => {
 let resultadoAdmiracion = admiracion("Bruna");
 console.log(resultadoAdmiracion);
 
-const admiracion1 = (string) => {
-  return `¡${string}!`;
-};
+const admiracion1 = string => `¡${string}!`;
 let resultadoAdmiracion1 = admiracion1("Bruna");
 console.log(resultadoAdmiracion1);
 
@@ -64,9 +58,7 @@ const edadTotal = (edadHumanos) => {
 let resultadoEdad = edadTotal(2);
 console.log(resultadoEdad);
 
-const edadTotal1 = (edadHumanos) => {
-  return edadHumanos * 7;
-};
+const edadTotal1 = edadHumanos => edadHumanos * 7;
 let resultadoEdad1 = edadTotal1(2);
 console.log(resultadoEdad1);
 
@@ -79,9 +71,7 @@ const trabajo = (sueldo) => {
 let resultadoTrabajo = trabajo(40000);
 console.log(resultadoTrabajo);
 
-const trabajo1 = (sueldo) => {
-  return sueldo / 40;
-};
+const trabajo1 = sueldo => sueldo / 40;
 let resultadoTrabajo1 = trabajo1(40000);
 console.log(resultadoTrabajo1);
 
@@ -113,17 +103,13 @@ const minusculas = (string) => {
 let mayusculas = minusculas("soy un hola en mayúscula :)");
 console.log(mayusculas);
 
-const minusculas1 = (string) => {
-  return string.toUpperCase();
-};
+const minusculas1 = string => string.toUpperCase();
 let mayusculas1 = minusculas1("soy otro hola en mayúscula :)");
 console.log(mayusculas1);
 
 /*8. Crear una función que recibe un parámetro y devuelve qué tipo de dato es ese
 parámetro. Pista: te servirá revisar qué hace la palabra reservada typeof.*/
-const parametro = (tipo) => {
-  return typeof tipo;
-};
+const parametro = tipo =>  typeof tipo;
 let resultadoTipo = parametro("hi :)");
 console.log(resultadoTipo);
 
@@ -137,8 +123,6 @@ const circunferencia = (radio) => {
 let circunferenciaTotal = circunferencia(12);
 console.log(circunferenciaTotal);
 
-const circunferencia1 = (radio) => {
-  return Math.PI * (radio * radio);
-};
+const circunferencia1 = radio => Math.PI * (radio * radio);
 let circunferenciaTotal1 = circunferencia1(12);
 console.log(circunferenciaTotal1);
