@@ -33,9 +33,7 @@ console.log(totalDivision);
 
 /* 1. Crear una función que se llame cuadradoDeUnNumero, la cual recibe un número como parámetro y deberá retornar ese número elevado al cuadrado.
 Importante: cuadradoDeUnNumero() deberá utilizar la función multiplicar() para calcular el cuadrado del parámetro ingresado a cuadradoDeUnNumero() */
-const cuadradoDeUnNumero = (numero) => {
-  return numero * numero;
-};
+const cuadradoDeUnNumero = (numero) =>  numero * numero;
 let totalCuadrado = cuadradoDeUnNumero(3);
 console.log(totalCuadrado);
 
